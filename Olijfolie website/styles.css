@@ -1,0 +1,46 @@
+body {background-color: rgb(193, 245, 247);
+  color: black;
+}
+
+.navigatiebar li {display: inline;      
+}
+
+a {color: black;
+text-decoration: none;
+}
+
+ul {list-style-type: none;
+  margin: 0;
+  padding: 0;
+  font-size:35px;
+}
+
+img {border: 5px solid;
+margin: 10px 0px;
+padding:0;
+width: 420px;
+}
+
+@media (min-width:1024px){body{font-size:x-large;
+line-height: 20px;
+text-align:center;
+margin: auto;
+background-color:floralwhite;
+color: olive;}
+}
+
+@media (min-width:1024px){.homepic{width: 1024px;
+} 
+}
+
+@media (min-width:1024px){p{margin: 30px 100px;
+} 
+}
+
+@media (min-width:1024px){.navigatiebar li {display: inline;
+  margin: 0px 50px;      
+}
+} 
+
+
+
